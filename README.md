@@ -84,7 +84,7 @@ website/
 The `index.html` file acts as the main entry point for the website.
 
 
-![Uploaded Website Files](screenshots/02-uploaded-files.png)
+![Uploaded Website Files](screenshots/s3Bucket.png)
 
 ---
 
@@ -95,7 +95,7 @@ Enabled **Static Website Hosting** from the S3 bucket properties.
 Configured the website's index document so that Amazon S3 knows which file to serve when visitors access the website.
 
 
-![Static Website Hosting](screenshots/03-static-website-hosting.png)
+![Static Website Hosting](screenshots/StaticWebURL.png)
 
 ---
 
@@ -107,7 +107,7 @@ This allowed users to retrieve the website files through the S3 website endpoint
 
 **Screenshot:**
 
-![S3 Bucket Policy](screenshots/04-bucket-policy.png)
+![S3 Bucket Policy](screenshots/JSONpolicy.png)
 
 > ⚠️ **Security Note:** For production applications, public access to S3 should be carefully evaluated. Modern AWS architectures commonly use CloudFront with an appropriate S3 access configuration rather than making the bucket publicly accessible.
 
@@ -119,7 +119,7 @@ After completing the configuration, accessed the S3 website endpoint through a w
 
 **Screenshot:**
 
-![Live Website](screenshots/05-live-website.png)
+![Live Website](screenshots/StaticWebsite.png)
 
 ---
 
@@ -206,19 +206,19 @@ The project could be extended by:
 
 ### Website Files
 
-![Website Files](screenshots/02-uploaded-files.png)
+![Website Files](screenshots/s3Bucket.png)
 
 ### Static Website Hosting
 
-![Static Website Hosting](screenshots/03-static-website-hosting.png)
+![Static Website Hosting](screenshots/StaticWebURL.png)
 
 ### Bucket Policy
 
-![Bucket Policy](screenshots/04-bucket-policy.png)
+![Bucket Policy](screenshots/JSONpolicy.png)
 
 ### Hosted Website
 
-![Hosted Website](screenshots/05-live-website.png)
+![Hosted Website](screenshots/StaticWebsite.png)
 
 ---
 
