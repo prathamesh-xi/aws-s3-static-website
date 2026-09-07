@@ -64,7 +64,7 @@ The bucket was configured specifically for hosting the website.
 
 **Screenshot:**
 
-![S3 Bucket](screenshots/01-s3-bucket.png)
+![S3 Bucket](screenshots/s3Bucket.png)
 
 ---
 
@@ -202,7 +202,7 @@ The project could be extended by:
 
 ### S3 Bucket
 
-![S3 Bucket](screenshots/01-s3-bucket.png)
+![S3 Bucket](screenshots/s3Bucket.png)
 
 ### Website Files
 
